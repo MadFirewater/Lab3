@@ -1,0 +1,8 @@
+# depslib dependency file v1.0
+1450292124 source:c:\users\Алекс\documents\lab3\lab3\main.cpp
+	<iostream>
+	<cstdlib>
+	<windows.h>
+	<ctime>
+	<iomanip>
+
