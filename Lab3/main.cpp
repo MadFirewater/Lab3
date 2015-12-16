@@ -12,7 +12,7 @@ struct Node{
 };
 Node *root;
 int depth=0 ;
-void InsertTree(Node **aNode, int data){
+void InsertTree(Node **aNode, int data){//процедура вставки елемента в дерево
 	if (!(*aNode)){
 		(*aNode) = new Node;
 		(*aNode)->value = data;
@@ -25,7 +25,7 @@ void InsertTree(Node **aNode, int data){
 	}
 	return;}
 
-void createTree(Node **aNode,int N){
+void createTree(Node **aNode,int N){//процедура створення дерева
      srand(time(0));
     for(int i=0;i<N;i++){
         int data=rand()%100-50;
